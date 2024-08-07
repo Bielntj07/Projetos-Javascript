@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(86, 122, 163);
+    font: normal 15pt Arial;
+    background-image: url('assets/imagens/naruto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div {
+    padding: 10px;
+    width: 65%;
+    margin: auto;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+input[type="button"] {
+    background-color: rgb(243, 243, 243);
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-weight: bold;
+    border-radius: 5px; /* Adiciona borda arredondada */
+    cursor: pointer; /* Adiciona cursor pointer para indicar interatividade */
+}
+
+input[type="button"]:hover {
+    background-color: rgb(220, 220, 220); /* Altera a cor de fundo ao passar o mouse */
+}
+
+header {
+    text-align: center;
+    color: rgb(245, 245, 245);
+    font: normal 50pt Arial;
+}
+
+input[type="text"] {
+    font: normal 20pt Arial;
+    text-align: center;
+    color: black;
+    width: 98%;
+    padding: 10px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
